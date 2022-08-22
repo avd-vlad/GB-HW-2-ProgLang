@@ -12,7 +12,7 @@ int SplitNum(int x)
     return res;
 }
 
-Console.WriteLine("Добро пожаловать в программу нахождения второй цифры трехзнвчных чисел");
+Console.WriteLine("Добро пожаловать в программу нахождения второй цифры трехзначных чисел");
 
 int x = new Random().Next(100,1000);
 int res = SplitNum(x);
